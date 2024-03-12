@@ -6,4 +6,5 @@
 ![image](https://github.com/Pablofcf/Taller1_ProGreening/assets/159049788/0237cf10-8291-4046-bc76-87e2419d8365)
 
 3.
-![image](https://github.com/Pablofcf/Taller1_ProGreening/assets/159049788/5e410368-11b1-4094-a1c7-ecae9ec373e9)
+![image](https://github.com/Pablofcf/Taller1_ProGreening/assets/159049788/69e9ceb2-c570-4add-add2-978df66fe9d2)
+
