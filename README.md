@@ -66,5 +66,12 @@ if una_vocal(letra):
 else:
   print("Es una consonante")
 ```
-
+7.Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
+El promedio
+La mediana
+El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
+Ordenar los números de forma ascendente
+Ordenar los números de forma descendente
+La potencia del mayor número elevado al menor número
+La raíz cúbica del menor número
 
