@@ -63,7 +63,8 @@ def una_vocal(letra):
 letra = input('Ingresa una letra por favor: ')
 if una_vocal(letra):
   print("es  una vocal")
-else:Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
+else:
+  print("Es una consonante")
 
 ```
 8. Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
