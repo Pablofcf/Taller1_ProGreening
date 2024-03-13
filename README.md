@@ -29,7 +29,7 @@ elif b>=a and b>=c:
 elif c>=a and c>=b:
     print(f"El numero mayor es {c}")
 ```
-
+Último dígito de la cédula de Juan Uribe: 1, al ser el quiz, realizamos el diagrama de flujo del punto 2
 ```mermaid
     flowchart TD;
     A(Inicio) --> B[a, b y c = reales];
