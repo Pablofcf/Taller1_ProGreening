@@ -205,3 +205,20 @@ print(f"El tiempo que tarda el Bugatti Chiron en recorrer {distancia} en metros 
 tiempoUsainBolt = float = distancia/11.66
 print(f"El tiempo que tarda Usain Bolt en recorrer {distancia} metros es de: {tiempoUsainBolt} segundos.")
 ``` 
+<h2>Bibliografía</h2>
+    <div class="bibliografia">
+        <table>
+            <tr>
+                <th>Referencia</th>
+            </tr>
+          <tr>
+                <td>Pythonspot. (2023, noviembre 26). Python Tests / Quizes. Recuperado de https://pythonspot.com/python-tests-quizes/<a href="https://pythonspot.com/python-tests-quizes/"></a></td>
+            </tr> 
+          <tr>
+                <td>Mundo Deportivo. (s.f.). Lista de países y capitales de América. Recuperado de https://www.mundodeportivo.com/uncomo/educacion/articulo/lista-de-paises-y-capitales-de-america-42870.html<a href="https://www.mundodeportivo.com/uncomo/educacion/articulo/lista-de-paises-y-capitales-de-america-42870.html"></a></td>
+          </tr>
+          <tr>
+                <td>Curso Interactivo de Física en Internet, Ángel Franco García<a href="[https://concepto.de/espectro-electromagnetico/](http://www.sc.ehu.es/sbweb/fisica_/cuantica/experiencias/espectro/espectro.html)http://www.sc.ehu.es/sbweb/fisica_/cuantica/experiencias/espectro/espectro.html"></a></td>
+          </tr>              
+        </table>
+    </div>
