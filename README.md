@@ -90,6 +90,23 @@ elif x >= 30e+3 and x < 3e+8:
 elif x < 30e+3:
     print("La frecuencia de onda esta en Muy baja frecuencia de radio")
 ```
+```mermaid
+    flowchart TD;
+    A(Inicio) --> B[x=real];
+    B --> C;
+    C[Frecuencia de una onda en Hz para hallar en que parte del espectro electromagnético esta] 
+    C--> D{Digite un numero en Hz segun la frecuencia de onda entre 30e+18 y 30e+3: } 
+    -- Sí -->E[x >= 30e+18]; E --> F[Frecuencia en Rayos Gamma];
+    D-- Sí -->G[x >= 30e+15 and x < 30e+18]; G-->H[Frecuencia en Rayos X];
+    D--Sí-->I[x >= 7.89e+14 and x < 30e+15]; I-->J[Frecuencia en Ultravioleta];
+    D--Sí-->K[x >= 384e+12 and x < 1.5e+15]; K-->L[Frecuencia en Espectro Visible];
+    D--Sí-->M[x >= 300e+9 and x < 384e+12]; M-->N[Frecuencia en Infrarrojo];
+    D--Sí-->O[x >= 3e+8 and x < 300e+9]; O-->P[Frecuencia en Microondas];
+    D--Sí-->Q[ x >= 30e+3 and x < 3e+8]; Q-->R[Frecuencia en onda larga de radio];
+    D--Sí-->S[x < 30e+3]; S-->T[Frecuencia en muy baja frecuencia de radio];
+    F & H & J & L & N & P & R & T-->U(Fin)
+```
+
 9. Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
 ```python
 def un_pais_america(pais):
