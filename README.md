@@ -7,7 +7,7 @@
 
 <table cellspacing="1" bgcolor="" align="center">
   <tr bgcolor="#252582">
-    <th><b>Taller 1 - Parte 1</b></th>
+    <th><b>Taller 1 - Punto 1</b></th>
   </tr>
   <tr bgcolor="#e4e4ed">
     <td style="color:#141414" align="center">Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).</td>
@@ -16,7 +16,11 @@
 
 [![Captura-de-pantalla-2024-03-13-173015.png](https://i.postimg.cc/Y2TRvJn2/Captura-de-pantalla-2024-03-13-173015.png)](https://postimg.cc/Hj4XKP1F)
 
-2. Realice un programa que lea tres números reales y determine cuál es el mayor.
+**Punto 2**
+```python
+#Taller 1 - Punto 2
+#Realice un programa que lea tres números reales y determine cuál es el mayor.
+
 ```python
 a = int(input("Digite un numero: "))
 b = int(input("Digite un numero: "))
