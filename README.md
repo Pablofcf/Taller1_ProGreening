@@ -13,7 +13,8 @@
     <td style="color:#141414" align="center">Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).</td>
   </tr>
 </table>
-![Quiz ProGreening](https://github.com/Pablofcf/Taller1_ProGreening/assets/159049788/e2229855-3e9a-43a6-9c9a-3b5d0cf38959)
+
+[![Captura-de-pantalla-2024-03-13-173015.png](https://i.postimg.cc/Y2TRvJn2/Captura-de-pantalla-2024-03-13-173015.png)](https://postimg.cc/Hj4XKP1F)
 
 2. Realice un programa que lea tres números reales y determine cuál es el mayor.
 ```python
