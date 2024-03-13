@@ -63,15 +63,63 @@ def una_vocal(letra):
 letra = input('Ingresa una letra por favor: ')
 if una_vocal(letra):
   print("es  una vocal")
-else:
-  print("Es una consonante")
+else:Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
+
 ```
-7.Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
-El promedio
-La mediana
-El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
-Ordenar los números de forma ascendente
-Ordenar los números de forma descendente
-La potencia del mayor número elevado al menor número
-La raíz cúbica del menor número
+8. Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
+```python
+
+```
+9. Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
+```python
+def un_pais_america(pais):
+    return pais.lower() in ["argentina","bolivia","brasil","chile","colombia","costa rica","cuba","ecuador","el salvador","guatemala","haiti","honduras","mexico","nicaragua","panama","paraguay","peru","republica dominicana","uruguay","venezuela","guayana francesa","puerto rico"]
+pais = input('Ingresa una un pais de america latina : ')
+if pais == "argentina":
+ print("buenos aires")
+elif pais == "bolivia" : 
+ print("la paz")
+elif pais == "brasil":
+   print("brasilia")
+elif pais == "chile" :
+ print("santiago de chile")
+elif pais== "colombia":
+   print("bogota")
+elif pais=="costa rica":
+   print("san jose")
+elif pais=="cuba":
+   print("la habana")
+elif pais == "ecuador":
+   print("quito")
+elif pais=="el salvador":
+   print("san salvador")
+elif pais=="guatemala":
+ print("ciudad de guatemala")
+elif pais== "haiti":
+   print("puerto principe")
+elif pais=="honduras":
+ print("Tegucigalpa")
+elif pais== "mexico":
+  print("ciudad de mexico")
+elif pais=="nicaruaga":
+  print("managua")
+elif pais=="panama":
+   print("panama")
+elif pais=="paraguay":
+  print("asuncion")
+elif pais=="peru":
+  print("lima")
+elif pais=="republica dominicana":
+  print("santo Domingo")
+elif pais=="uruguay":
+  print("montevideo")
+elif pais=="venezuela":
+  print("caracas")
+elif pais=="guyana francesa":
+  print("cayena")
+elif pais=="puerto rico":
+ print("san juan")
+else :
+  print("pais no identificado ")
+```
 
