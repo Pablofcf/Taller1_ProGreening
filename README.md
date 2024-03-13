@@ -67,6 +67,11 @@ elif num2 % num1 == 0:
 else:
   print("niguno de los dos numeros el multiplo del otro numero")
 ```
+Último dígito de la cédula de Brayan Guerrero: 4
+
+
+
+
 5. Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
 ```python
 a=float(input("Digite un primer número\n" ))
@@ -117,6 +122,8 @@ elif x >= 30e+3 and x < 3e+8:
 elif x < 30e+3:
     print("La frecuencia de onda esta en Muy baja frecuencia de radio")
 ```
+Último dígito de la cédula de Pablo Mendoza: 8
+
 ```mermaid
     flowchart TD;
     A(Inicio) --> B[x=real];
