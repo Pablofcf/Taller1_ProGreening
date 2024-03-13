@@ -62,9 +62,12 @@ def una_vocal(letra):
   #ademas el in devuelve True si un elemento se encuentra dentro de otro
 letra = input('Ingresa una letra por favor: ')
 if una_vocal(letra):
-  print("es  una vocal")
+  print("Es  una vocal")
 else:
   print("Es una consonante")
+```
+7. Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:El promedio, la mediana, el promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos), ordenar los números de forma ascendente, ordenar los números de forma descendente, la potencia del mayor número elevado al menor número y la raíz cúbica del menor número.
+```python
 
 ```
 8. Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
@@ -123,4 +126,7 @@ elif pais=="puerto rico":
 else :
   print("pais no identificado ")
 ```
+10. Escriba un programa que dada una distancia calcule: El tiempo que le tomaría a la luz recorrer la distancia, el tiempo que le tomaría al sonido (en el aire) recorrer la distancia, el tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia y el tiempo que le tomaría a Bolt recorrer la distancia.
+```python
 
+``` 
