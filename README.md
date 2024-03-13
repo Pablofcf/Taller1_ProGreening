@@ -16,11 +16,8 @@
 
 [![Captura-de-pantalla-2024-03-13-173015.png](https://i.postimg.cc/Y2TRvJn2/Captura-de-pantalla-2024-03-13-173015.png)](https://postimg.cc/Hj4XKP1F)
 
-**Punto 2**
+2. Realice un programa que lea tres números reales y determine cuál es el mayor.
 ```python
-#Taller 1 - Punto 2
-#Realice un programa que lea tres números reales y determine cuál es el mayor.
-
 a = int(input("Digite un numero: "))
 b = int(input("Digite un numero: "))
 c = int(input("Digite un numero: "))
@@ -31,6 +28,7 @@ elif b>=a and b>=c:
     print(f"El numero mayor es {b}")
 elif c>=a and c>=b:
     print(f"El numero mayor es {c}")
+```
 
 ```mermaid
     flowchart TD;
