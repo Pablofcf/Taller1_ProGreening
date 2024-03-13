@@ -1,20 +1,9 @@
 # Taller1_ProGreening
-
-Integrantes: 
-
-
-Brayan Andres Guerrero Cortés C.C. 1011201494
-
-Juan David Uribe Vélez C.C. 1011087091
-
-
-Pablo Mendoza Malagón C.C. 1072645448
-
-
-Estudiantes de Ingeniería Agrícola
-
-
-Nombre del Grupo: ProGreening
+| Nombre                       | Identificación |      Grupo      |      Carrera        |
+|------------------------------|----------------|-----------------|---------------------|
+| Brayan Andres Guerrero Cortés| 1011201494     |                 |                     |
+| Juan David Uribe Vélez       | 1011087091     |   ProGreening   | Ingeniería Agrícola |
+| Pablo Mendoza Malagón        | 1072645448     |                 |                     |
 
 1. Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
 ![Quiz ProGreening](https://github.com/Pablofcf/Taller1_ProGreening/assets/159049788/e2229855-3e9a-43a6-9c9a-3b5d0cf38959)
