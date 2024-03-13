@@ -218,7 +218,7 @@ print(f"El tiempo que tarda Usain Bolt en recorrer {distancia} metros es de: {ti
                 <td>Mundo Deportivo. (s.f.). Lista de países y capitales de América. Recuperado de https://www.mundodeportivo.com/uncomo/educacion/articulo/lista-de-paises-y-capitales-de-america-42870.html<a href="https://www.mundodeportivo.com/uncomo/educacion/articulo/lista-de-paises-y-capitales-de-america-42870.html"></a></td>
           </tr>
           <tr>
-                <td>Curso Interactivo de Física en Internet, Ángel Franco García<a href="[https://concepto.de/espectro-electromagnetico/](http://www.sc.ehu.es/sbweb/fisica_/cuantica/experiencias/espectro/espectro.html)http://www.sc.ehu.es/sbweb/fisica_/cuantica/experiencias/espectro/espectro.html"></a></td>
+                <td>Curso Interactivo de Física en Internet, Ángel Franco García  Recuperado de (http://www.sc.ehu.es/sbweb/fisica_/cuantica/experiencias/espectro/espectro.html)<a href="[https://concepto.de/espectro-electromagnetico/(http://www.sc.ehu.es/sbweb/fisica_/cuantica/experiencias/espectro/espectro.html)http://www.sc.ehu.es/sbweb/fisica_/cuantica/experiencias/espectro/espectro.html"></a></td>
           </tr>              
         </table>
     </div>
