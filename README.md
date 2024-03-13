@@ -15,6 +15,18 @@ elif b>=a and b>=c:
 elif c>=a and c>=b:
     print(f"El numero mayor es {c}")
 ```
+```mermaid
+    flowchart TD;
+    A(Inicio) --> B[a, b y c = reales];
+    B --> C;
+    C[Determinar cual de los tres es el mayor] 
+    C--> D{Digite tres numeros iguales o diferentes: } 
+    -- Sí -->E[a>=b and a>=c]; E --> F[El numero mayor es a];
+    D-- Sí -->G[b>=a and b>=c]; G-->H[El numero mayor es b];
+    D--Sí-->I[c>=a and c>=b]; I-->J[El numero mayor es c];
+  
+    F & H & J -->U(Fin)
+```
 3. Realice un programa que lea un número enteros y determine si es par o impar.
 ```python
 a = int(input("Digite un numero: "))
