@@ -212,10 +212,10 @@ print(f"El tiempo que tarda Usain Bolt en recorrer {distancia} metros es de: {ti
                 <th>Referencia</th>
             </tr>
           <tr>
-                <td>Pythonspot. (2023, noviembre 26). Python Tests / Quizes. Recuperado de https://pythonspot.com/python-tests-quizes/<a href="https://pythonspot.com/python-tests-quizes/"></a></td>
+                <td>Pythonspot. (2023). Python Tests / Quizes. Recuperado de https://pythonspot.com/python-tests-quizes/<a href="https://pythonspot.com/python-tests-quizes/"></a></td>
             </tr> 
           <tr>
-                <td>Mundo Deportivo. (s.f.). Lista de países y capitales de América. Recuperado de https://www.mundodeportivo.com/uncomo/educacion/articulo/lista-de-paises-y-capitales-de-america-42870.html<a href="https://www.mundodeportivo.com/uncomo/educacion/articulo/lista-de-paises-y-capitales-de-america-42870.html"></a></td>
+                <td>Wikipedia. (2024). América Latina. Recuperado de (https://es.wikipedia.org/wiki/Am%C3%A9rica_Latina)<a href="(https://es.wikipedia.org/wiki/Am%C3%A9rica_Latina)"></a></td>
           </tr>
           <tr>
                 <td>Curso Interactivo de Física en Internet, Ángel Franco García  Recuperado de (http://www.sc.ehu.es/sbweb/fisica_/cuantica/experiencias/espectro/espectro.html)<a href="[https://concepto.de/espectro-electromagnetico/(http://www.sc.ehu.es/sbweb/fisica_/cuantica/experiencias/espectro/espectro.html)http://www.sc.ehu.es/sbweb/fisica_/cuantica/experiencias/espectro/espectro.html"></a></td>
