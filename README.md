@@ -15,3 +15,17 @@ elif b>=a and b>=c:
 elif c>=a and c>=b:
     print(f"El numero mayor es {c}")
 ```
+3. Realice un programa que lea un número enteros y determine si es par o impar.
+```python
+a = int(input("Digite un numero: "))
+b = int(input("Digite otro numero: "))
+
+if a%2==0 and b%2==0:
+    print("Ambos numeros son pares")
+elif a%2==0 and b%2!=0:
+    print(f"{a} es par")
+elif a%2!=0 and b%2==0:
+    print(f"{b} es par")
+else:
+    print("Ambos numeros son impares")
+```
