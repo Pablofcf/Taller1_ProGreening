@@ -72,10 +72,19 @@ else:
   print("niguno de los dos numeros el multiplo del otro numero")
 ```
 Último dígito de la cédula de Brayan Guerrero: 4
-
-
-
-
+```mermaid
+flowchart TD
+    A(inicio) -->|Determinar si el primero es multiplo del segundo| B[Digite el primer numero que se le venga a la mente]
+    B --> C[Digite un número grande xd]
+    C --> d{¿El numero 1 % Numero 2==0?}
+    d -->|Verdadero| e[El numero 1 es multiplo del numero 2]
+    e --> f(fin)
+    d -->|falso| g{¿El numero 2 % Numero 1==0?}
+    g -->|Verdadero| h[El numero 1 es multiplo del numero 2]
+    h --> f(fin)
+    g -->|falso| z[Ninguno de los dos es multiplo del otro]
+    z --> f(fin)
+```
 5. Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
 ```python
 a=float(input("Digite un primer número\n" ))
