@@ -218,7 +218,7 @@ print(f"El tiempo que tarda Usain Bolt en recorrer {distancia} metros es de: {ti
                 <td>Wikipedia. (2024). América Latina. Recuperado de (https://es.wikipedia.org/wiki/Am%C3%A9rica_Latina)<a href="(https://es.wikipedia.org/wiki/Am%C3%A9rica_Latina)"></a></td>
           </tr>
           <tr>
-                <td>Curso Interactivo de Física en Internet, Ángel Franco García  Recuperado de (http://www.sc.ehu.es/sbweb/fisica_/cuantica/experiencias/espectro/espectro.html)<a href="[https://concepto.de/espectro-electromagnetico/(http://www.sc.ehu.es/sbweb/fisica_/cuantica/experiencias/espectro/espectro.html)http://www.sc.ehu.es/sbweb/fisica_/cuantica/experiencias/espectro/espectro.html"></a></td>
+                <td>Curso Interactivo de Física en Internet. Ángel Franco García. Recuperado de (http://www.sc.ehu.es/sbweb/fisica_/cuantica/experiencias/espectro/espectro.html)<a href="[https://concepto.de/espectro-electromagnetico/(http://www.sc.ehu.es/sbweb/fisica_/cuantica/experiencias/espectro/espectro.html)http://www.sc.ehu.es/sbweb/fisica_/cuantica/experiencias/espectro/espectro.html"></a></td>
           </tr>              
         </table>
     </div>
