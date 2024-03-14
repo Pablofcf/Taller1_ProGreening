@@ -181,20 +181,34 @@ elif x < 30e+3:
 Último dígito de la cédula de Pablo Mendoza: 8
 
 ```mermaid
-    flowchart TD;
-    A(Inicio) --> B[x=real];
-    B --> C;
-    C[Frecuencia de una onda en Hz para hallar en que parte del espectro electromagnético esta] 
-    C--> D{Digite un numero en Hz segun la frecuencia de onda entre 30e+18 y 30e+3: } 
-    -- Sí -->E[x >= 30e+18]; E --> F[Frecuencia en Rayos Gamma];
-    D-- Sí -->G[x >= 30e+15 and x < 30e+18]; G-->H[Frecuencia en Rayos X];
-    D--Sí-->I[x >= 7.89e+14 and x < 30e+15]; I-->J[Frecuencia en Ultravioleta];
-    D--Sí-->K[x >= 384e+12 and x < 1.5e+15]; K-->L[Frecuencia en Espectro Visible];
-    D--Sí-->M[x >= 300e+9 and x < 384e+12]; M-->N[Frecuencia en Infrarrojo];
-    D--Sí-->O[x >= 3e+8 and x < 300e+9]; O-->P[Frecuencia en Microondas];
-    D--Sí-->Q[ x >= 30e+3 and x < 3e+8]; Q-->R[Frecuencia en onda larga de radio];
-    D--Sí-->S[x < 30e+3]; S-->T[Frecuencia en muy baja frecuencia de radio];
-    F & H & J & L & N & P & R & T-->U(Fin)
+   flowchart TD;
+    A(Inicio) --> B[Digite un número en Hz segun frecuencia de onda,
+    en un rango de 30e+18 y 30e+3];
+    B --> c[x = Número Real]  
+    c --> d{x >= 30e+18}
+    d --> |verdadero|e[La frecuencia de onda esta en Rayos Gamma]
+    e --> z[fin]
+    d --> |falso| f{x >= 30e+15 y <30e+18}
+    f --> |verdadero|g[La frecuencia de onda esta en Rayos X]
+    g --> z[fin]
+    f --> |falso|h{x >= 7.89e+14 y < 30e+15}
+    h --> |verdadero|i[La frecuencia de onda esta en Ultravioleta]
+    i --> z[fin]
+    h --> |falso|j{x >= 384e+12 y < 1.5e+15}
+    j --> |verdadero|k[La frecuencia de onda esta en Espectro Visible]
+    k --> z[fin]
+    j --> |falso|l{x >= 300e+9 y < 384e+12}
+    l --> |verdadero|m[La frecuencia de onda esta en Infrarojo]
+    m --> z[fin]
+    l --> |falso|n{x >= 3e+8 y < 300e+9}
+    n --> |verdadero|o[La frecuencia de ondas esta en microondas]
+    o --> z[fin]
+    n --> |falso|p{x >= 30e+3 y < 3e+8}
+    p --> |verdadero|q[La frecuencia de onda esta en una frecuencia larga de radio]
+    q --> z[fin]
+    p --> |falso|r{x > 30e+3}
+    r --> |verdadero|s[La frecuencia de onda es una frecuancia muy baja de onda]
+    s --> z[fin]
 ```
 
 9. Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
