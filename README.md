@@ -31,16 +31,20 @@ elif c>=a and c>=b:
 ```
 Último dígito de la cédula de Juan Uribe: 1, al ser el quiz, realizamos el diagrama de flujo del punto 2
 ```mermaid
-    flowchart TD;
+  flowchart TD;
     A(Inicio) --> B[a, b y c = reales];
     B --> C;
     C[Determinar cual de los tres es el mayor] 
     C--> D{Digite tres numeros iguales o diferentes: } 
     -- Sí -->E[a>=b and a>=c]; E --> F[El numero mayor es a];
-    D-- Sí -->G[b>=a and b>=c]; G-->H[El numero mayor es b];
-    D--Sí-->I[c>=a and c>=b]; I-->J[El numero mayor es c];
-  
-    F & H & J -->U(Fin)
+    D-- no -->G[Entoces];G -->H{b>=c o c>=b}
+    -- Sí -->I[b>=a and b>=c] 
+    H-- no -->f[entonces]
+    I-->P[El numero mayor es b];
+    f-->O{c>a>b}
+    -- Sí -->q[c>=a and c>=b] 
+    q-->k[El numero mayor es c]
+    O-- no -->g[Fin]
 ```
 3. Realice un programa que lea un número enteros y determine si es par o impar.
 ```python
