@@ -1,4 +1,4 @@
- %% [markdown]
+# %% [markdown]
 # Taller 1 - ProGreening
 # 
 # Puntos 3, 5, 7 y 9
@@ -81,7 +81,7 @@ promediomultiplicativo = a*b*c*d*e**(1/5)
 print("El promedio multiplicativo es ", promediomultiplicativo)
 
 potencia: float = e**a
-print("potencia del mayor número elevando el menor número es: ", potencia)
+print("potencia del mayor número elevando el menor número es: ",potencia)
 
 print("La lista en orden ascendente es: ",a,b,c,d,e)
 print("La lista en orden descendente es: ",e,d,c,b,a)
@@ -142,3 +142,4 @@ elif pais=="puerto rico":
  print("san juan")
 else :
   print("pais no identificado ")
+
