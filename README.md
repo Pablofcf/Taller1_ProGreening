@@ -5,6 +5,9 @@
 | Juan David Uribe Vélez       | 1011087091     |   ProGreening   | Ingeniería Agrícola |
 | Pablo Mendoza Malagón        | 1072645448     |                 |                     |
 
+[![Imagen-de-Whats-App-2024-03-13-a-las-21-45-30-bc88fd85.jpg](https://i.postimg.cc/tgBthGhZ/Imagen-de-Whats-App-2024-03-13-a-las-21-45-30-bc88fd85.jpg)](https://postimg.cc/mcFHsqpB)
+
+
 <table cellspacing="1" bgcolor="" align="center">
   <tr bgcolor="#252582">
     <th><b>Taller 1 - Punto 1</b></th>
